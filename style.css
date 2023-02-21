@@ -15,3 +15,43 @@ html {
     align-items: center;
     justify-content: center;
 }
+
+.navbar {
+    position: relative;
+}
+
+.nav-menu {
+    width: 46rem;
+    height: 3.5rem;
+    background-color: #25ac78;
+    padding: 2rem 3rem;
+    border-radius: 5rem;
+    box-shadow: 0 1rem 3rem rgba(37, 172, 120, 0.4);
+}
+
+.nav-menu-link {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav-menu-link:nth-child(1) {
+    left: 4rem;
+}
+
+.nav-menu-link:nth-child(2) {
+    left: 13rem;
+}
+
+.nav-menu-link:nth-child(3) {
+    right: 13rem;
+}
+
+.nav-menu-link:nth-child(4) {
+    right: 4rem;
+}
+
+.nav-menu-link i {
+    font-size: 4rem;
+    color: #fff;
+}
