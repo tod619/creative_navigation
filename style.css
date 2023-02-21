@@ -20,6 +20,29 @@ html {
     position: relative;
 }
 
+.dots-btn {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background-color: #25ac78;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 1rem 3rem rgba(13, 83, 57, 0.4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dot {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
 .nav-menu {
     width: 46rem;
     height: 3.5rem;
