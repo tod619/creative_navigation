@@ -43,6 +43,24 @@ html {
     background-color: #fff;
 }
 
+.dot-1 {
+    width: 0.8rem;
+    height: 7rem;
+    border-radius: 1rem;
+    transform: rotate(-45deg) translate(2rem, 2rem); 
+}
+
+.dot-2 {
+    opacity: 0;
+}
+
+.dot-3 {
+    width: 0.8rem;
+    height: 7rem;
+    border-radius: 1rem;
+    transform: rotate(45deg) translate(-2rem, 2rem);
+}
+
 .nav-menu {
     width: 46rem;
     height: 3.5rem;
